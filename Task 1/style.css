@@ -1,0 +1,35 @@
+.mainpage {
+    background-color: lightpink;
+}
+
+.header {
+    font-size: 30px;
+    text-align: center;
+}
+
+#mem1, #mem2{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 500px;
+    height: 100px;
+    background-color: violet;
+    border: none;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: lightskyblue;
+}
+
+.main {
+    width: 700px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+}

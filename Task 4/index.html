@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pokemon API</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1 class="logo">Pokemon API</h1>
+        <form class="search-form">
+          <input type="text" placeholder="Search" id="textBox" />
+          <button type="submit" id="textButton">Search</button>
+        </form>
+        <select class="select-option" id="limit">
+          <option value="10">10</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+          <option value="250">250</option>
+          <option value="500">500</option>
+          <option value="1000">1000</option>
+        </select>
+        <select class="select-option" id="select">
+          <option value="normal">Normal</option>
+          <option value="grass">Grass</option>
+          <option value="fire">Fire</option>
+          <option value="water">Water</option>
+          <option value="bug">Bug</option>
+          <option value="electric">Electric</option>
+          <option value="rock">Rock</option>
+          <option value="ghost">Ghost</option>
+          <option value="poison">Poison</option>
+          <option value="phychic">Phychic</option>
+          <option value="ground">Ground</option>
+          <option value="dragon">Dragon</option>
+        </select>
+      </div>
+    </header>
+
+    <div id="card-list">
+      <h3 class="no-input">
+        Please choose any of the filter to get your Pokemon...!!
+      </h3>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
